@@ -1,0 +1,16 @@
+[project]
+name = "task-555"
+version = "latest"
+description = ""
+authors = [
+    {name = "andirkh", email = "andirkh@petalmail.com"},
+]
+dependencies = [
+    "django>=5.0.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+dev = "pdm run src/manage.py runserver"
